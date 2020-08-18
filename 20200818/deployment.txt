@@ -1,0 +1,11 @@
+Dep;oyment Steps:
+1-stop openended campaign handler.
+2-backup the old jar of openEnded campaign handler and it's common by renaming each to [oldname].jarbk
+3-rename the jars to the current deployment jars.
+4-replace the jars with the new ones.
+5-start openended campaign handler.
+6-repeat the steps above for campaign handler as well.
+
+Tests:
+Create a campaign and check that it sent the messages.
+Create an open ended campaign and check that it sent the messages.
