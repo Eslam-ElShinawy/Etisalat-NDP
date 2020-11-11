@@ -1,0 +1,10 @@
+1-Copy the contents of SMS Webservice Package to webservices folder
+2-Change the following properties in ./config/application.properties:
+	ndpdatasource.jdbcUrl= (database connection string)
+	ndpdatasource.username= (schema name)
+	ndpdatasource.password= (schema password)
+3-Change the following properties in ./control.sh:
+	DIRECTORY= (Immediate webservice path)
+	JAVA_HOME= (java home)
+4-Run the scripts in "DB Script.SQL" on the database.
+5-run "./control.sh start" to start the webservice.
