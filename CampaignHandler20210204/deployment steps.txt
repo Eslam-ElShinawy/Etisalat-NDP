@@ -1,0 +1,7 @@
+Deployment Steps:
+1-Stop the open-ended campaign handler.
+2-Rename the jars in this package to the current deployment jars.
+3-Backup the old jars of the open-ended campaign handler and it's common by renaming each to [oldname].jarbk_20210204
+4-Replace the jars with the new ones.
+5-Start the open-ended campaign handler.
+6-Repeat the steps above for campaign handler as well.
